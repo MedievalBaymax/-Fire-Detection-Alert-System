@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Detection Alert System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><span class="logo-icon">🔥</span> Fire Detection Alert System</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#live-detection">Live Detection</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Real-Time Fire Detection & Safety System</h2>
+        <p>An intelligent AI system that detects fire instantly using camera and sends alerts to prevent disasters.</p>
+        <a href="#live-detection" class="btn-primary">View Live Detection</a>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-grid">
+
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Camera Monitoring</h3>
+                    <p>Camera continuously captures real-time video from the environment.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Fire Detection</h3>
+                    <p>AI model analyzes frames and detects fire using image recognition.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Alert Generation</h3>
+                    <p>System generates alert when fire is detected with confidence level.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Emergency Response</h3>
+                    <p>Alert is sent to users and authorities to take immediate action.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="live-detection-section" id="live-detection">
+        <h2>Fire Detection Live Monitoring</h2>
+
+        <div class="video-box">
+            <div class="camera-icon-bg">
+                <span class="camera-icon">📷</span>
+            </div>
+            <video id="video" autoplay muted></video>
+        </div>
+
+        <div class="button-group">
+            <button id="startBtn">Start Detection</button>
+            <button id="endBtn">Stop Detection</button>
+        </div>
+
+        <p id="statusText">Status: Waiting to start...</p>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About This Project</h2>
+            <div class="about-content">
+
+                <div class="about-section">
+                    <h3>🎯 Project Objectives</h3>
+                    <ul>
+                        <li>Detect fire in real-time using AI</li>
+                        <li>Prevent accidents and reduce damage</li>
+                        <li>Provide early warning system</li>
+                        <li>Capture and store fire evidence images</li>
+                        <li>Improve safety in homes, industries, and forests</li>
+                    </ul>
+                </div>
+
+
+                <div class="about-section">
+                    <h3>Technology Used</h3>
+                    <ul>
+                        <li>Frontend: HTML, CSS, JavaScript</li>
+                        <li>Backend: Python (OpenCV)</li>
+                        <li>AI Model: Roboflow Fire Detection</li>
+                        <li>Camera: Webcam / CCTV</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h3>Fire Detection Alert System</h3>
+            <p>College Project - Bachelor of Computer Applications (BCA)</p>
+            <p>Developed by Mohit Sundariyal</p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="mailto:mohitsundariyal308@gmail.com">@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span>Phone: +91-8630255018</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
