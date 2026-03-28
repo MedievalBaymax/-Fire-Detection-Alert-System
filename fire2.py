@@ -3,11 +3,11 @@ from ultralytics import YOLO
 import datetime
 
 # Load your trained model
-model = YOLO(r"C:\Users\mohit\runs\detect\train\weights\best.pt")
+model = YOLO(r"best.pt")
 
 cap = cv2.VideoCapture(0)
 
-print("🔥 Fire Detection Started (LOCAL MODEL)...")
+print("Fire Detection Started (LOCAL MODEL)...")
 
 while True:
     ret, frame = cap.read()
